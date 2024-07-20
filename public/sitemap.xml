@@ -8,6 +8,9 @@
     <loc>http://www.example.com/</loc>
     <lastmod>2024-07-19T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://www.example.com/posts/</loc>
+    <lastmod>2023-07-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.example.com/projects/expense/</loc>
     <lastmod>2023-07-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,13 +20,13 @@
     <loc>http://www.example.com/tags/node.js/</loc>
     <lastmod>2023-07-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.example.com/projects/</loc>
-    <lastmod>2023-07-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://www.example.com/categories/projects/</loc>
     <lastmod>2023-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.example.com/tags/react/</loc>
+    <lastmod>2023-07-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.example.com/projects/</loc>
     <lastmod>2023-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.example.com/resume/</loc>
@@ -51,9 +54,6 @@
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.example.com/posts/markdown-syntax/</loc>
-    <lastmod>2023-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.example.com/posts/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.example.com/series/</loc>

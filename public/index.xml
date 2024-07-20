@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>johndoe</title>
+    <title>praneith ranganath</title>
     <link>http://www.example.com/</link>
-    <description>Recent content on johndoe</description>
+    <description>Recent content on praneith ranganath</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
@@ -13,7 +13,14 @@
       <link>http://www.example.com/about/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://www.example.com/about/</guid>
-      <description>Hi there! I&amp;rsquo;m Praneith, a Masters in Data Analytics student at Northeastern University 👋 Link to heading I&amp;rsquo;m a recent graduate from Northeastern University&amp;rsquo;s Khoury College of Computer Sciences, where I earned my Bachelor&amp;rsquo;s degree in Computer Science with a minor in Data Science. During my time at Northeastern, I had the incredible opportunity to participate in the university&amp;rsquo;s renowned co-op program, which allowed me to gain real-world experience working as a software engineer at several top-tier tech companies.</description>
+      <description>Hi there! I&amp;rsquo;m Praneith, a Masters in Data Analytics student at Northeastern University 👋 Link to heading I&amp;rsquo;m a Masters student from Northeastern University&amp;rsquo;s Khoury College of Engineering, where I am working towards my Master&amp;rsquo;s degree in Data Analytics with major in Data Science.&#xA;My Passion for Technology 💻 Link to heading From a young age, I&amp;rsquo;ve been fascinated by the power of technology to solve complex problems and improve people&amp;rsquo;s lives.</description>
+    </item>
+    <item>
+      <title> Blog Posts</title>
+      <link>http://www.example.com/posts/</link>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://www.example.com/posts/</guid>
+      <description>Inside my First MLOp’s Project: Building, Deploying, and Beyond Link to heading In this article we are trying to give an overview of our attempt at developing a end to end ML product housing a CNN classification model to predict the type of tumor, whose architecture is given below.&#xA;Read more&amp;hellip;&#xA;Beyond the Finish Line: Exploring the Numbers and Stats Behind the Epic F1 2021 Drivers Championship Link to heading How Max Verstappen and Lewis Hamilton fought a epic battle to for the Drivers Championship?</description>
     </item>
     <item>
       <title>Expense Tracker Web App</title>
@@ -24,10 +31,17 @@
     </item>
     <item>
       <title>Resume</title>
+      <link>http://www.example.com/projects/</link>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://www.example.com/projects/</guid>
+      <description>Projects Table of Contents Link to heading Brain Tumor Classification – Deployment ready project Room Occupancy Estimation Health Centre Database and Datawarehouse for Analysis MBTA – Machine learning model for predicting the load on bus European Football/Soccer Database Management System Timeseries Analysis of Human Activities Formula1 – Battle for the Drivers’ Championship Analysis and Dashboard Projects Link to heading Brain Tumor Classification – Deployment ready project Link to heading Implemented CI/CD using Git Actions, created the latest Docker image and stored it in GCP artifact registry.</description>
+    </item>
+    <item>
+      <title>Resume</title>
       <link>http://www.example.com/resume/</link>
       <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://www.example.com/resume/</guid>
-      <description>John Doe Link to heading Computer Science Student | Northeastern University&#xA;Education Link to heading Bachelor of Science in Computer Science&#xA;Northeastern University, Boston, MA&#xA;Expected Graduation: May 2024&#xA;GPA: 3.8/4.0&#xA;Relevant Coursework:&#xA;Data Structures and Algorithms Object-Oriented Design Web Development Database Management Systems Artificial Intelligence Skills Link to heading Programming Languages: Java, Python, C++, JavaScript Web Technologies: HTML, CSS, React, Node.js Databases: MySQL, MongoDB Tools and Frameworks: Git, Docker, AWS, Spring Boot Soft Skills: Problem-solving, Communication, Teamwork, Time Management Work Experience Link to heading Software Engineering Co-op</description>
+      <description>Education Link to heading Masters in Data Analytics&#xA;Northeastern University, Boston, MA&#xA;Expected Graduation: May 2024&#xA;GPA: 3.9/4.0&#xA;Relevant Coursework:&#xA;Machine learning Machine Learning Operations (MLOps) Natural Language Processing Data Mining Datawarehouse and Business Intelligence Bachelor of Science in Information Science&#xA;Dr Ambedkar Intitute of Technology, Bengaluru, Karnataka&#xA;Graduation: June 2024&#xA;GPA: 3.46/4.0&#xA;Relevant Coursework:&#xA;Design and Analysis of Algorithms Object-Oriented Design Reliability, Queueing Theory and Probability Cloud Computing Skills Link to heading Frameworks: Pandas, NumPy, TensorFlow, PyTorch, Scikit-learn, BeautifulSoup, Scrapy Databases and Datawarehouse Tools: MySQL, PostgreSQL, MongoDB, Snowflake, Talend Cloud and Visualization Tools: GCP, AWS, Tableau, Power BI MLOps and CI/CD: Airflow, MLflow, TFX, DVC, Docker, Kubernetes, GitHub Actions Programming Languages: Python, Java, C++, C# Automation Tools: Automation Anywhere, Power Automate, UI Path, RulAI, VB Script Project Management Tools: Jeera, Workzone, Monday.</description>
     </item>
     <item>
       <title>Markdown Syntax Guide</title>
@@ -111,7 +125,7 @@
       <link>http://www.example.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://www.example.com/contact/</guid>
-      <description>Follow me, @johndoe.</description>
+      <description>You can reach me through the following contact details:&#xA;Phone: (857)-413-0507 Email: ranganth.p@northeastern.edu LinkedIn: Praneith Ranganath GitHub: P101010 Feel free to contact me directly via phone or email.</description>
     </item>
     <item>
       <title>Projects</title>
