@@ -27,7 +27,8 @@ draft: false
 ### Room Occupancy Estimation
  
 - Developed machine learning algorithms such as **Linear Regression**, **LDA**, **QDA**, and **SVM** for multi-class classification of predicting occupancy using **NumPy**, **Pandas**, and **Scipy**.
-- Applied techniques such as square root, cube root, and logarithmic transformations to ensure data followed a normal distribution, optimizing model results.
+- Applied techniques such as square root, cube root, logarithmic transformations to ensure data follows normal distribution
+and leveraged SMOTE to generate synthetic data and achieve a balanced dataset across all classes.
 
 ### Health Centre Database and Datawarehouse for Analysis
 

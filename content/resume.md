@@ -48,6 +48,8 @@ Jun 2023 – Nov 2023
 **Acronotics**, Bengaluru, India  
 Jul 2019 - Sep 2022  
 - Developed bots to automate data collection, transformation, and creation of custom dashboards, ensuring constant and real-time updates of data, decreasing turnaround time by 75% using tools such as Automation Anywhere, Python, MySQL, Tableau, Power BI, and Excel Power Pivots.
+- Deployed Naïve Bayes model on partner devices to estimate the likelihood of a candidate’s fit for a role. This estimation was
+based on historical data from partners' recruitments, serving as an enhancement to our LinkedIn candidate Bot.
 - Used OCR to capture invoices generated and received in real-time, automating financial analysis report generation daily, thereby eliminating dependency.
 
 **Data Engineer**  
@@ -68,7 +70,8 @@ Jun 2024
 **[Room Occupancy Estimation](https://github.com/P101010/Room_Occupancy_Prediction)**  
 Apr 2024  
 - Developed machine learning algorithms such as **Linear Regression**, **LDA**, **QDA**, and **SVM** for multi-class classification of predicting occupancy using **NumPy**, **Pandas**, and **Scipy**.
-- Applied techniques such as square root, cube root, and logarithmic transformations to ensure data followed a normal distribution, optimizing model results.
+- Applied techniques such as square root, cube root, logarithmic transformations to ensure data follows normal distribution
+and leveraged SMOTE to generate synthetic data and achieve a balanced dataset across all classes.
 
 **Health Centre Database and Datawarehouse for Analysis**  
 Apr 2024  
