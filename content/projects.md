@@ -1,20 +1,22 @@
 ---
-title: "Resume"
+title: "Projects"
 date: 2023-07-19
 draft: false
 ---
 
 [Check out my GitHub for more projects and details!](https://github.com/P101010)
 
+
 ## Projects Table of Contents
 1. [Brain Tumor Classification – Deployment ready project](#brain-tumor-classification--deployment-ready-project)
 2. [Body Composition Scanner](#body-composition-scanner)
-3. [Room Occupancy Estimation](#room-occupancy-estimation)
-4. [Health Centre Database and Datawarehouse for Analysis](#health-centre-database-and-datawarehouse-for-analysis)
-5. [MBTA – Machine learning model for predicting the load on bus](#mbta--machine-learning-model-for-predicting-the-load-on-bus)
-6. [European Football/Soccer Database Management System](#european-footballsoccer-database-management-system)
-7. [Timeseries Analysis of Human Activities](#timeseries-analysis-of-human-activities)
-8. [Formula1 – Battle for the Drivers’ Championship Analysis and Dashboard](#formula1--battle-for-the-drivers-championship-analysis-and-dashboard)
+3. [Penalty Analysis and Prediction](#penalty-analysis-and-prediction)
+4. [Room Occupancy Estimation](#room-occupancy-estimation)
+5. [Health Centre Database and Datawarehouse for Analysis](#health-centre-database-and-datawarehouse-for-analysis)
+6. [MBTA – Machine learning model for predicting the load on bus](#mbta--machine-learning-model-for-predicting-the-load-on-bus)
+7. [European Football/Soccer Database Management System](#european-footballsoccer-database-management-system)
+8. [Timeseries Analysis of Human Activities](#timeseries-analysis-of-human-activities)
+9. [Formula1 – Battle for the Drivers’ Championship Analysis and Dashboard](#formula1--battle-for-the-drivers-championship-analysis-and-dashboard)
 
 ## Projects
 
@@ -33,6 +35,16 @@ draft: false
 - Used a pretrained Resnet model to extract silhouettes of front and left or right facing images of subjects.
 - Extracted features from silhouettes such as area, solidity of contour.
 - Established a linear relation between wrist size and neck circumference through a paper by Prof. John Verzani called "Human Proportions," which was later used for other component calculations like fat percentage, lean mass, and more.
+
+
+### Penalty Analysis and Prediction
+
+![Penalty Analysis and Prediction Image](/images/HK.png)  
+ 
+- Created a new dataset with paramters such as isFansSide and established thaere exists a complex realtionship between them and direction of penalty for one test player Harry Kane
+- Applied various ML tecniques and settled on distance based KNN moedel which when tuned to 5 neighbours achieved an accuracy of 78%. 
+- You can find a Google sheet of all the 1234 possible scenarios my model could face and the prediction in the read me of my GitHub repo.
+
 
 ### Room Occupancy Estimation
 

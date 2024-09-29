@@ -1,10 +1,28 @@
 ---
-title: " Blog Posts"
+title: "Posts"
 date: 2023-07-19
 draft: false
 ---
 
+### [Beyond the Kick: Unlocking penaltity prediction through learning](../post1/)
 
+![First Post Image](/images/HKP2.png)
+
+In the first part, we explored the intricate relationship between various parameters and the direction of penalties taken by Harry Kane. Building on that foundation, we now seek to expand our analysis further by teaching a model to understand the complex relationships within our dataset.
+
+[Read more...](../post1/)
+
+---
+
+### [Beyond the Kick! A data driven decomposition of penalties](https://medium.com/@praneithranganath10/beyond-the-kick-a-data-driven-decomposition-of-penalties-b42bfc811b03)
+
+![First Post Image](/images/HK.png)
+
+In this article, I aim to build upon traditional data by incorporating additional parameters, unlocking more complex relationships. By leveraging a broader set of attributes, I hope to reveal deeper insights into the dynamics of penalty-taking and improve overall strategy through data-driven analysis.
+
+[Read more...](https://medium.com/@praneithranganath10/from-silhouettes-to-insights-a-dive-into-our-body-composition-scanner-91190d17d312)
+
+---
 ### [From Silhouettes to Insights: A Dive into Our Body Composition Scanner](https://medium.com/@praneithranganath10/from-silhouettes-to-insights-a-dive-into-our-body-composition-scanner-91190d17d312)
 
 ![First Post Image](/images/project.png)

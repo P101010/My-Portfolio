@@ -16,11 +16,11 @@
       <description>Hi there! I&amp;rsquo;m Praneith, a Masters in Data Analytics student at Northeastern University 👋 Link to heading I&amp;rsquo;m a Masters student from Northeastern University&amp;rsquo;s Khoury College of Engineering, where I am working towards my Master&amp;rsquo;s degree in Data Analytics with major in Data Science.&#xA;My Passion for Technology 💻 Link to heading From a young age, I&amp;rsquo;ve been fascinated by the power of technology to solve complex problems and improve people&amp;rsquo;s lives.</description>
     </item>
     <item>
-      <title> Blog Posts</title>
-      <link>http://www.praneith.com/posts/</link>
+      <title>Beyond the kick: Unlocking penaltity prediction through learning</title>
+      <link>http://www.praneith.com/post1/</link>
       <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://www.praneith.com/posts/</guid>
-      <description>From Silhouettes to Insights: A Dive into Our Body Composition Scanner Link to heading In this article, we aim to provide an overview of our efforts to research and explore the possibilities presented in the paper Human Proportions by Prof. John Verzani, and to build something meaningful and impactful from its findings.&#xA;Read more&amp;hellip;&#xA;Inside my First MLOp’s Project: Building, Deploying, and Beyond Link to heading In this article we are trying to give an overview of our attempt at developing a end to end ML product housing a CNN classification model to predict the type of tumor, whose architecture is given below.</description>
+      <guid>http://www.praneith.com/post1/</guid>
+      <description>In the first part, we explored the intricate relationship between various parameters and the direction of penalties taken by Harry Kane. Building on that foundation, we now seek to expand our analysis further by teaching a model to understand the complex relationships within our dataset.&#xA;Simplifying the Problem Link to heading To focus on meaningful insights, we decided to simplify the problem from a five-class classification problem to a three-class one.</description>
     </item>
     <item>
       <title>Expense Tracker Web App</title>
@@ -30,18 +30,18 @@
       <description>Expense Tracker Web App Link to heading Overview Link to heading The Expense Tracker Web App is a full-stack application designed to help users track and manage their personal expenses. It provides an intuitive interface for recording expenses, categorizing them, and visualizing spending patterns through charts and graphs.&#xA;Features Link to heading User authentication and authorization Add, edit, and delete expense entries Categorize expenses into predefined categories View expenses by date range and category Interactive data visualization using charts and graphs Responsive design for seamless use across devices Technologies Used Link to heading Front-end: React: JavaScript library for building user interfaces Redux: State management library for predictable state handling Axios: Promise-based HTTP client for making API requests Chart.</description>
     </item>
     <item>
-      <title>Resume</title>
+      <title>Posts</title>
+      <link>http://www.praneith.com/posts/</link>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://www.praneith.com/posts/</guid>
+      <description>Beyond the Kick: Unlocking penaltity prediction through learning Link to heading In the first part, we explored the intricate relationship between various parameters and the direction of penalties taken by Harry Kane. Building on that foundation, we now seek to expand our analysis further by teaching a model to understand the complex relationships within our dataset.&#xA;Read more&amp;hellip;&#xA;Beyond the Kick! A data driven decomposition of penalties Link to heading In this article, I aim to build upon traditional data by incorporating additional parameters, unlocking more complex relationships.</description>
+    </item>
+    <item>
+      <title>Projects</title>
       <link>http://www.praneith.com/projects/</link>
       <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://www.praneith.com/projects/</guid>
-      <description>Check out my GitHub for more projects and details!&#xA;Projects Table of Contents Link to heading Brain Tumor Classification – Deployment ready project Body Composition Scanner Room Occupancy Estimation Health Centre Database and Datawarehouse for Analysis MBTA – Machine learning model for predicting the load on bus European Football/Soccer Database Management System Timeseries Analysis of Human Activities Formula1 – Battle for the Drivers’ Championship Analysis and Dashboard Projects Link to heading Brain Tumor Classification – Deployment ready project Link to heading Implemented CI/CD using Git Actions, created the latest Docker image and stored it in GCP artifact registry.</description>
-    </item>
-    <item>
-      <title>Resume</title>
-      <link>http://www.praneith.com/resume/</link>
-      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://www.praneith.com/resume/</guid>
-      <description>Education Link to heading Masters in Data Analytics&#xA;Northeastern University, Boston, MA&#xA;Expected Graduation: May 2024&#xA;GPA: 3.9/4.0&#xA;Relevant Coursework:&#xA;Machine learning Machine Learning Operations (MLOps) Natural Language Processing Data Mining Datawarehouse and Business Intelligence Bachelor of Science in Information Science&#xA;Dr Ambedkar Intitute of Technology, Bengaluru, Karnataka&#xA;Graduation: June 2024&#xA;GPA: 3.46/4.0&#xA;Relevant Coursework:&#xA;Design and Analysis of Algorithms Object-Oriented Design Reliability, Queueing Theory and Probability Cloud Computing Skills Link to heading Frameworks: Pandas, NumPy, TensorFlow, PyTorch, Scikit-learn, BeautifulSoup, Scrapy Databases and Datawarehouse Tools: MySQL, PostgreSQL, MongoDB, Snowflake, Talend Cloud and Visualization Tools: GCP, AWS, Tableau, Power BI MLOps and CI/CD: Airflow, MLflow, TFX, DVC, Docker, Kubernetes, GitHub Actions Programming Languages: Python, Java, C++, C# Automation Tools: Automation Anywhere, Power Automate, UI Path, RulAI, VB Script Project Management Tools: Jeera, Workzone, Monday.</description>
+      <description>Check out my GitHub for more projects and details!&#xA;Projects Table of Contents Link to heading Brain Tumor Classification – Deployment ready project Body Composition Scanner Penalty Analysis and Prediction Room Occupancy Estimation Health Centre Database and Datawarehouse for Analysis MBTA – Machine learning model for predicting the load on bus European Football/Soccer Database Management System Timeseries Analysis of Human Activities Formula1 – Battle for the Drivers’ Championship Analysis and Dashboard Projects Link to heading Brain Tumor Classification – Deployment ready project Link to heading Implemented CI/CD using Git Actions, created the latest Docker image and stored it in GCP artifact registry.</description>
     </item>
     <item>
       <title>Markdown Syntax Guide</title>
@@ -119,6 +119,13 @@
       <pubDate>Wed, 04 Jan 2023 23:21:06 +0100</pubDate>
       <guid>http://www.praneith.com/categoria/sintaxe/</guid>
       <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://www.praneith.com/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.praneith.com/resume/</guid>
+      <description>Work Experience Link to heading Data Analyst&#xA;FHI 360, Washington, DC&#xA;Jun 2023 – Nov 2023&#xA;Reduced patient dropout rates from 72% to 51% by identifying patients at high risk of treatment interruptions with a KNN model built with the HIV team achieving an accuracy of 65%. Developed dashboards for analysis by consolidating data from multiple sources into a data warehouse, driving cost-effective decisions and enhancing scope of project viability studies.</description>
     </item>
     <item>
       <title>Contact</title>
