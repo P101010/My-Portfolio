@@ -82,7 +82,7 @@ GPA: 3.9/4.0
 
 **Bachelor of Science in Information Science**  
 Dr Ambedkar Intitute of Technology, Bengaluru, Karnataka  
-Graduation: June 2024  
+Graduation: June 2018
 GPA: 3.46/4.0
 
 **Relevant Coursework:**
