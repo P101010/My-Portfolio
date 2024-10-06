@@ -11,9 +11,12 @@ model built with the HIV team achieving an accuracy of 65%.
 **Senior Automation Engineer**  
 **Acronotics**, Bengaluru, India  
 Jul 2019 - Sep 2022  
-- Cut recruitment time by 40% through shortlisting candidates using Gaussian Process Regression based on historical partner data.
-- Spearheaded a team of engineers as the Solution architect for augmenting features like auto-ticket assignment, auto- rescheduling into RadiumAi, a tool to monitor RPA process across platforms.
-- Used OCR to capture invoices generated and received in real-time, automating financial analysis report generation daily, thereby eliminating dependency.
+- Cut recruitment time by 40% through shortlisting candidates using Gaussian Process Regression based on partner data.
+- Improved user experience by leading a team of engineers as the Solution architect and augmenting features like auto-ticket assignment, auto- rescheduling into RadiumAi, a tool to monitor RPA process across platforms.
+- Increased memory utilization and decreased training runtime through data and model parallelization techniques, enhancing the efficiency of machine learning workflows.
+- Reduced payment term from three days to one by implementing OCR to automate invoice processing, therby accelerating the payment cycle and improving supply chain efficiency. 
+- Eliminated dependency on users and ensured consistency by automating data collection, manipulation and report generation.
+
 
 **Data Engineer**  
 **Tata Consultancy Services**, Bengaluru, India  
@@ -23,11 +26,11 @@ Jun 2018 - Jul 2019
 
 ## Projects
 **[Brain Tumor Classification – Deployment ready project](https://github.com/P101010/Brain-Tumor-Classification)**  
+- Developed a brain-tumor classifier using CNN and managed versioning and artifacts of model using MLFlow.
+- Automated training and retraining of model using Airflow DAG’s based on feedback received.
+- Deployed a scalable application developed using Streamlit leveraging Restful API endpoints on Kubernetes, based on the latest Docker image in the artifact registry, pushed by GitHub Actions on change thereby achieving CI/CD.
+- Monitored model for confidence and prediction distribution, data for drift and skew to increase lifecycle of model.
 
-- Deployed a brain tumor classifier on GKE, based on the latest Docker image in the artifact registry which was pushed by GitHub Actions thereby achieving CI/CD
-- Used **FastAPI** for backend endpoint communication and **Streamlit** for the frontend application.
-- Implemented data versioning using **DVC**, model versioning and tracking using **MLFlow**, and automated model training and retraining pipelines using **Airflow DAGs**.
-- Monitored model for confidence, prediction distribution and data for data drift and skew to increase lifecycle of model
 
 **[Body Composition Scanner](https://github.com/P101010/Body-Composition-Scanner)**  
  
@@ -40,10 +43,10 @@ Jun 2018 - Jul 2019
 - Developed a KNN model, improved its accuracy from 44% to 89% by feature engineering, basis expansion and hyperparameter tuning
 - Applied various ML tecniques and settled on distance based KNN moedel which when tuned to seven neighbours achieved an accuracy of 86%. 
 
-**[Room Occupancy Estimation](https://github.com/P101010/Room_Occupancy_Prediction)**  
+**[Classical Machine Learning Algorithms](https://github.com/P101010/Classical-Machine-learning-Algorithms)**  
 
-- Engineered models for a multi-class classification problem to predict the number of room occupants by building algorithms like Logistic Regression, Gaussian Naïve Bayes, and SVM using NumPy, Pandas and SciPy Optimize.
-- Improved model performance by detrending time series, batch processing to reduce temporal noise, basis expansion to ensure parameters follow normal distribution.
+- Implemented classical machine learning algorithms (Linear Regression, Logistic Regression, and SVM) from scratch using Python, NumPy, and SciPy, demonstrating strong foundational understanding of model optimization, regularization, gradient descent.
+- Developed comprehensive evaluation metrics (Accuracy, RMSE, SSE, Precision, Recall) to assess model performance, improving the interpretability and robustness of predictions.
 
 **[Formula1 – Battle for the Drivers’ Championship Analysis and Dashboard](https://github.com/P101010/Formula-1-Drivers-Championship-Dashboard-and-Analysis)**  
  
@@ -57,9 +60,8 @@ Jun 2018 - Jul 2019
 - Implemented OLTP and OLAP databases using **PostgreSQL** and used **Talend Jobs** for ETL operations.
 
 **[MBTA – Machine learning model for predicting the load on bus](https://github.com/P101010/Predicting-the-load-on-a-bus)**  
- 
-- Trained supervised machine learning models like **Linear Regression**, **KNN**, **Random Forest**, and **Decision Trees** using **Scikit-learn** on MBTA data to predict bus load.
-- Identified **Random Forest** as the most accurate model with 82% accuracy, improving to 84.8% with further tuning of hyperparameters.
+
+- Improved user satisfaction by reducing load on bus by 30% with scheduling strategies derived based on a random forest model developed with MBTA Data Science team which achieved an accuracy of 84.8%.
 
 **European Football/Soccer Database Management System**  
 
