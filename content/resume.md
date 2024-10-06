@@ -70,7 +70,7 @@ Jun 2018 - Jul 2019
 
 **Masters in Data Analytics**  
 Northeastern University, Boston, MA  
-Expected Graduation: May 2024  
+Expected Graduation: December 2024  
 GPA: 3.9/4.0
 
 **Relevant Coursework:**
