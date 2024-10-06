@@ -23,11 +23,10 @@ draft: false
 ### Brain Tumor Classification – Deployment ready project
 
 ![Brain Tumor Classification Image](/images/BTC.png)  
-- Implemented CI/CD using **Git Actions**, created the latest Docker image and stored it in **GCP artifact registry**.
-- **Kubernetes** picked this Docker image and hosted it on one of the pods in the cluster.
-- Used **FastAPI** for backend endpoint communication and **Streamlit** for the frontend application.
-- Implemented data versioning using **DVC**, model versioning and tracking using **MLFlow**, and automated model training and retraining pipelines using **Airflow DAGs**.
-- Designed a monitoring dashboard from parsed logs to identify data drift, data skew, and model confidence.
+- Developed a brain-tumor classifier using CNN and managed versioning and artifacts of model using MLFlow.
+- Automated training and retraining of model using Airflow DAG’s based on feedback received.
+- Deployed a scalable application developed using Streamlit leveraging Restful API endpoints on Kubernetes, based on the latest Docker image in the artifact registry, pushed by GitHub Actions on change thereby achieving CI/CD.
+- Monitored model for confidence and prediction distribution, data for drift and skew to increase lifecycle of model.
 
 ### Body Composition Scanner
 
@@ -46,10 +45,10 @@ draft: false
 - You can find a Google sheet of all the 1234 possible scenarios my model could face and the prediction in the read me of my GitHub repo.
 
 
-### Room Occupancy Estimation
+### Classical Machine Learning Algorithms
 
-- Developed machine learning algorithms such as **Linear Regression**, **LDA**, **QDA**, and **SVM** for multi-class classification of predicting occupancy using **NumPy**, **Pandas**, and **Scipy**.
-- Applied techniques such as square root, cube root, logarithmic transformations to ensure data follows a normal distribution and leveraged SMOTE to generate synthetic data and achieve a balanced dataset across all classes.
+- Implemented classical machine learning algorithms (Linear Regression, Logistic Regression, and SVM) from scratch using Python, NumPy, and SciPy, demonstrating strong foundational understanding of model optimization, regularization, gradient descent.
+- Developed comprehensive evaluation metrics (Accuracy, RMSE, SSE, Precision, Recall) to assess model performance, improving the interpretability and robustness of predictions.
 
 ### Health Centre Database and Datawarehouse for Analysis
 
@@ -60,8 +59,7 @@ draft: false
 
 ### MBTA – Machine learning model for predicting the load on bus
 
-- Trained supervised machine learning models like **Linear Regression**, **KNN**, **Random Forest**, and **Decision Trees** using **Scikit-learn** on MBTA data to predict bus load.
-- Identified **Random Forest** as the most accurate model with 82% accuracy, improving to 84.8% with further tuning of hyperparameters.
+- Improved user satisfaction by reducing load on bus by 30% with scheduling strategies derived based on a random forest model developed with MBTA Data Science team which achieved an accuracy of 84.8%.
 
 ### European Football/Soccer Database Management System
 

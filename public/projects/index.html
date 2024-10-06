@@ -14,20 +14,20 @@
 
 <meta name="author" content="Praneith Ranganath">
 <meta name="description" content="Check out my GitHub for more projects and details!
-Projects Table of Contents Link to heading Brain Tumor Classification – Deployment ready project Body Composition Scanner Penalty Analysis and Prediction Room Occupancy Estimation Health Centre Database and Datawarehouse for Analysis MBTA – Machine learning model for predicting the load on bus European Football/Soccer Database Management System Timeseries Analysis of Human Activities Formula1 – Battle for the Drivers’ Championship Analysis and Dashboard Projects Link to heading Brain Tumor Classification – Deployment ready project Link to heading Implemented CI/CD using Git Actions, created the latest Docker image and stored it in GCP artifact registry.">
+Projects Table of Contents Link to heading Brain Tumor Classification – Deployment ready project Body Composition Scanner Penalty Analysis and Prediction Room Occupancy Estimation Health Centre Database and Datawarehouse for Analysis MBTA – Machine learning model for predicting the load on bus European Football/Soccer Database Management System Timeseries Analysis of Human Activities Formula1 – Battle for the Drivers’ Championship Analysis and Dashboard Projects Link to heading Brain Tumor Classification – Deployment ready project Link to heading Developed a brain-tumor classifier using CNN and managed versioning and artifacts of model using MLFlow.">
 <meta name="keywords" content="blog,student,northeastern,personal">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Projects">
   <meta name="twitter:description" content="Check out my GitHub for more projects and details!
-Projects Table of Contents Link to heading Brain Tumor Classification – Deployment ready project Body Composition Scanner Penalty Analysis and Prediction Room Occupancy Estimation Health Centre Database and Datawarehouse for Analysis MBTA – Machine learning model for predicting the load on bus European Football/Soccer Database Management System Timeseries Analysis of Human Activities Formula1 – Battle for the Drivers’ Championship Analysis and Dashboard Projects Link to heading Brain Tumor Classification – Deployment ready project Link to heading Implemented CI/CD using Git Actions, created the latest Docker image and stored it in GCP artifact registry.">
+Projects Table of Contents Link to heading Brain Tumor Classification – Deployment ready project Body Composition Scanner Penalty Analysis and Prediction Room Occupancy Estimation Health Centre Database and Datawarehouse for Analysis MBTA – Machine learning model for predicting the load on bus European Football/Soccer Database Management System Timeseries Analysis of Human Activities Formula1 – Battle for the Drivers’ Championship Analysis and Dashboard Projects Link to heading Brain Tumor Classification – Deployment ready project Link to heading Developed a brain-tumor classifier using CNN and managed versioning and artifacts of model using MLFlow.">
 
 <meta property="og:url" content="http://www.praneith.com/projects/">
   <meta property="og:site_name" content="praneith ranganath">
   <meta property="og:title" content="Projects">
   <meta property="og:description" content="Check out my GitHub for more projects and details!
-Projects Table of Contents Link to heading Brain Tumor Classification – Deployment ready project Body Composition Scanner Penalty Analysis and Prediction Room Occupancy Estimation Health Centre Database and Datawarehouse for Analysis MBTA – Machine learning model for predicting the load on bus European Football/Soccer Database Management System Timeseries Analysis of Human Activities Formula1 – Battle for the Drivers’ Championship Analysis and Dashboard Projects Link to heading Brain Tumor Classification – Deployment ready project Link to heading Implemented CI/CD using Git Actions, created the latest Docker image and stored it in GCP artifact registry.">
+Projects Table of Contents Link to heading Brain Tumor Classification – Deployment ready project Body Composition Scanner Penalty Analysis and Prediction Room Occupancy Estimation Health Centre Database and Datawarehouse for Analysis MBTA – Machine learning model for predicting the load on bus European Football/Soccer Database Management System Timeseries Analysis of Human Activities Formula1 – Battle for the Drivers’ Championship Analysis and Dashboard Projects Link to heading Brain Tumor Classification – Deployment ready project Link to heading Developed a brain-tumor classifier using CNN and managed versioning and artifacts of model using MLFlow.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:published_time" content="2023-07-19T00:00:00+00:00">
@@ -173,11 +173,10 @@ Projects Table of Contents Link to heading Brain Tumor Classification – Deploy
 </h3>
 <p><img alt="Brain Tumor Classification Image" src="/images/BTC.png"></p>
 <ul>
-<li>Implemented CI/CD using <strong>Git Actions</strong>, created the latest Docker image and stored it in <strong>GCP artifact registry</strong>.</li>
-<li><strong>Kubernetes</strong> picked this Docker image and hosted it on one of the pods in the cluster.</li>
-<li>Used <strong>FastAPI</strong> for backend endpoint communication and <strong>Streamlit</strong> for the frontend application.</li>
-<li>Implemented data versioning using <strong>DVC</strong>, model versioning and tracking using <strong>MLFlow</strong>, and automated model training and retraining pipelines using <strong>Airflow DAGs</strong>.</li>
-<li>Designed a monitoring dashboard from parsed logs to identify data drift, data skew, and model confidence.</li>
+<li>Developed a brain-tumor classifier using CNN and managed versioning and artifacts of model using MLFlow.</li>
+<li>Automated training and retraining of model using Airflow DAG’s based on feedback received.</li>
+<li>Deployed a scalable application developed using Streamlit leveraging Restful API endpoints on Kubernetes, based on the latest Docker image in the artifact registry, pushed by GitHub Actions on change thereby achieving CI/CD.</li>
+<li>Monitored model for confidence and prediction distribution, data for drift and skew to increase lifecycle of model.</li>
 </ul>
 <h3 id="body-composition-scanner">
   Body Composition Scanner
@@ -205,16 +204,16 @@ Projects Table of Contents Link to heading Brain Tumor Classification – Deploy
 <li>Applied various ML tecniques and settled on distance based KNN moedel which when tuned to 5 neighbours achieved an accuracy of 78%.</li>
 <li>You can find a Google sheet of all the 1234 possible scenarios my model could face and the prediction in the read me of my GitHub repo.</li>
 </ul>
-<h3 id="room-occupancy-estimation">
-  Room Occupancy Estimation
-  <a class="heading-link" href="#room-occupancy-estimation">
+<h3 id="classical-machine-learning-algorithms">
+  Classical Machine Learning Algorithms
+  <a class="heading-link" href="#classical-machine-learning-algorithms">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
 <ul>
-<li>Developed machine learning algorithms such as <strong>Linear Regression</strong>, <strong>LDA</strong>, <strong>QDA</strong>, and <strong>SVM</strong> for multi-class classification of predicting occupancy using <strong>NumPy</strong>, <strong>Pandas</strong>, and <strong>Scipy</strong>.</li>
-<li>Applied techniques such as square root, cube root, logarithmic transformations to ensure data follows a normal distribution and leveraged SMOTE to generate synthetic data and achieve a balanced dataset across all classes.</li>
+<li>Implemented classical machine learning algorithms (Linear Regression, Logistic Regression, and SVM) from scratch using Python, NumPy, and SciPy, demonstrating strong foundational understanding of model optimization, regularization, gradient descent.</li>
+<li>Developed comprehensive evaluation metrics (Accuracy, RMSE, SSE, Precision, Recall) to assess model performance, improving the interpretability and robustness of predictions.</li>
 </ul>
 <h3 id="health-centre-database-and-datawarehouse-for-analysis">
   Health Centre Database and Datawarehouse for Analysis
@@ -237,8 +236,7 @@ Projects Table of Contents Link to heading Brain Tumor Classification – Deploy
   </a>
 </h3>
 <ul>
-<li>Trained supervised machine learning models like <strong>Linear Regression</strong>, <strong>KNN</strong>, <strong>Random Forest</strong>, and <strong>Decision Trees</strong> using <strong>Scikit-learn</strong> on MBTA data to predict bus load.</li>
-<li>Identified <strong>Random Forest</strong> as the most accurate model with 82% accuracy, improving to 84.8% with further tuning of hyperparameters.</li>
+<li>Improved user satisfaction by reducing load on bus by 30% with scheduling strategies derived based on a random forest model developed with MBTA Data Science team which achieved an accuracy of 84.8%.</li>
 </ul>
 <h3 id="european-footballsoccer-database-management-system">
   European Football/Soccer Database Management System
