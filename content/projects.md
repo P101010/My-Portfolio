@@ -11,7 +11,7 @@ draft: false
 1. [Brain Tumor Classification – Deployment ready project](#brain-tumor-classification--deployment-ready-project)
 2. [Body Composition Scanner](#body-composition-scanner)
 3. [Penalty Analysis and Prediction](#penalty-analysis-and-prediction)
-4. [Room Occupancy Estimation](#room-occupancy-estimation)
+4. [Classical Machine Learning Algorithmsn](#classical-machine-learning-algorithm)
 5. [Health Centre Database and Datawarehouse for Analysis](#health-centre-database-and-datawarehouse-for-analysis)
 6. [MBTA – Machine learning model for predicting the load on bus](#mbta--machine-learning-model-for-predicting-the-load-on-bus)
 7. [European Football/Soccer Database Management System](#european-footballsoccer-database-management-system)
