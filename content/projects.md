@@ -4,19 +4,7 @@ date: 2023-07-19
 draft: false
 ---
 
-[Check out my GitHub for more projects and details!](https://github.com/P101010)
-
-
-## Projects Table of Contents
-1. [Brain Tumor Classification – Deployment ready project](#brain-tumor-classification--deployment-ready-project)
-2. [Body Composition Scanner](#body-composition-scanner)
-3. [Penalty Analysis and Prediction](#penalty-analysis-and-prediction)
-4. [Classical Machine Learning Algorithms](#classical-machine-learning-algorithm)
-5. [Health Centre Database and Datawarehouse for Analysis](#health-centre-database-and-datawarehouse-for-analysis)
-6. [MBTA – Machine learning model for predicting the load on bus](#mbta--machine-learning-model-for-predicting-the-load-on-bus)
-7. [European Football/Soccer Database Management System](#european-footballsoccer-database-management-system)
-8. [Timeseries Analysis of Human Activities](#timeseries-analysis-of-human-activities)
-9. [Formula1 – Battle for the Drivers’ Championship Analysis and Dashboard](#formula1--battle-for-the-drivers-championship-analysis-and-dashboard)
+[Check out my GitHub for more details!](https://github.com/P101010)
 
 ## Projects
 
@@ -27,6 +15,19 @@ draft: false
 - Automated training and retraining of model using Airflow DAG’s based on feedback received.
 - Deployed a scalable application developed using Streamlit leveraging Restful API endpoints on Kubernetes, based on the latest Docker image in the artifact registry, pushed by GitHub Actions on change thereby achieving CI/CD.
 - Monitored model for confidence and prediction distribution, data for drift and skew to increase lifecycle of model.
+
+### RAG Database Assistant
+
+![RAG Database Assistant Image](/images/RAG.png)  
+- Enabled users to query and retrieve results from the database in a conversational format leveraging GPT-4o on Langchain.
+- Reduced prompt size by retrieving relevant schemas based on user queries by doing a semantic search on a vector database.
+- Enhanced SQL query accuracy by adding few shot examples relevant to user queries and employing conversational memory.
+
+### Multimodal Document Handling
+
+![Multimodal Document Handling Image](/images/ColPali.png)  
+- Retrieved relevant document pages based on user queries by converting images of pdf documents into embeddings using a vison transformer, storing them in a vector database and doing a similarity search on embeddings of user queries.
+- Optimized storage in database by using binary quantization and enhanced search accuracy by reranking and oversampling.
 
 ### Body Composition Scanner
 
@@ -44,18 +45,23 @@ draft: false
 - Applied various ML tecniques and settled on distance based KNN moedel which when tuned to 5 neighbours achieved an accuracy of 78%. 
 - You can find a Google sheet of all the 1234 possible scenarios my model could face and the prediction in the read me of my GitHub repo.
 
-
 ### Classical Machine Learning Algorithms
 
 - Implemented classical machine learning algorithms (Linear Regression, Logistic Regression, and SVM) from scratch using Python, NumPy, and SciPy, demonstrating strong foundational understanding of model optimization, regularization, gradient descent.
 - Developed comprehensive evaluation metrics (Accuracy, RMSE, SSE, Precision, Recall) to assess model performance, improving the interpretability and robustness of predictions.
 
+### F1 2021 – Visual Storyboard and Analytical Dashboard
+
+![Formula1 Analysis Image](/images/Dashboard.png)  
+- Crafted a data-driven story showcasing the season’s pivotal moments and dynamics, allowing audience to grasp complex factors such as race strategies, driver performance and points progression that contributed to the championship battle.
+- Designed an interactive dashboard on Tableau featuring key insights into driver performance and championship progression.
+
 ### Health Centre Database and Datawarehouse for Analysis
 
 ![Health Centre Database Image](/images/DW.png)  
-- Designed and modeled a database to handle various aspects involved in a healthcare center.
-- Created a multidimensional model with several facts such as Consultation, Tests Conducted, and Operations performed to analyze health center metrics and identify potential hazards.
-- Implemented OLTP and OLAP databases using **PostgreSQL** and used **Talend Jobs** for ETL operations.
+- Designed a multidimensional model for tracking metrics with a focus on identifying diagnostic trends and regional hazards.
+- Utilized AWS Glue jobs for ETL from PostgreSQL to Redshift, leveraging S3 buckets for intermediate storage and Lambda functions to automate job triggers for efficient data processing.
+
 
 ### MBTA – Machine learning model for predicting the load on bus
 
@@ -70,11 +76,5 @@ draft: false
 ### Timeseries Analysis of Human Activities
 
 - Conducted timeseries analysis on human activity data, applying techniques such as **ARIMA**, **LSTM**, and **Prophet** models to forecast and understand patterns.
-
-### Formula1 – Battle for the Drivers’ Championship Analysis and Dashboard
-
-![Formula1 Analysis Image](/images/Dashboard.png)  
-- Extracted and integrated data from various sources and APIs, utilized **Python** for data wrangling, and created a comprehensive dashboard displaying the 2021 season insights using **Tableau**.
-- Used **Exploratory Data Analysis** techniques to uncover factors influencing the 2021 championship battle.
 
 [Check out my GitHub for more projects and details!](https://github.com/P101010)
