@@ -6,8 +6,6 @@ draft: false
 
 [Check out my GitHub for more details!](https://github.com/P101010)
 
-## Projects
-
 ### Brain Tumor Classification – Deployment ready project
 
 ![Brain Tumor Classification Image](/images/BTC.png)  
@@ -37,13 +35,12 @@ draft: false
 - Established a linear relation between wrist size and neck circumference through a paper by Prof. John Verzani called "Human Proportions," which was later used for other component calculations like fat percentage, lean mass, and more.
 
 
-### Penalty Analysis and Prediction
+### Penalty Analysis and Goalkeeper Strategies  
 
-![Penalty Analysis and Prediction Image](/images/HK.png)  
+![Penalty Analysis and Goalkeeper Strategies](/images/HK.png)  
  
-- Created a new dataset with paramters such as isFansSide and established thaere exists a complex realtionship between them and direction of penalty for one test player Harry Kane
-- Applied various ML tecniques and settled on distance based KNN moedel which when tuned to 5 neighbours achieved an accuracy of 78%. 
-- You can find a Google sheet of all the 1234 possible scenarios my model could face and the prediction in the read me of my GitHub repo.
+- Identified and established key correlations between the direction of shot during a penalty and game specific factors like if player is facing home or away fans in front of the goal, team is leading or behind in goals, time in game and so on.#[Beyond the Kick](https://medium.com/@praneithranganath10/beyond-the-kick-a-data-driven-decomposition-of-penalties-b42bfc811b03)
+- Derived strategies to save penalties by predicting the direction of shot using a KNN model developed on the insights above.
 
 ### Classical Machine Learning Algorithms
 
@@ -53,7 +50,7 @@ draft: false
 ### F1 2021 – Visual Storyboard and Analytical Dashboard
 
 ![Formula1 Analysis Image](/images/Dashboard.png)  
-- Crafted a data-driven story showcasing the season’s pivotal moments and dynamics, allowing audience to grasp complex factors such as race strategies, driver performance and points progression that contributed to the championship battle.
+- Crafted a data-driven story showcasing the season’s pivotal moments and dynamics, allowing audience to grasp complex factors such as race strategies, driver performance and points progression that contributed to the championship battle.#[Beyond the Finish Line](https://medium.com/@praneithranganath10/beyond-the-finish-line-exploring-the-numbers-and-stats-behind-the-epic-f1-2021-drivers-86389fcbb9f6)
 - Designed an interactive dashboard on Tableau featuring key insights into driver performance and championship progression.
 
 ### Health Centre Database and Datawarehouse for Analysis

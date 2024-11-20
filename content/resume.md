@@ -1,6 +1,19 @@
+## Education
+
+**Masters in Data Analytics**  
+Northeastern University, Boston, MA  
+Expected Graduation: December 2024  
+GPA: 3.9/4.0
+
+**Bachelor of Science in Information Science**  
+Dr Ambedkar Intitute of Technology, Bengaluru, Karnataka  
+Graduation: June 2018
+GPA: 3.46/4.0
+
 ## Skills
-- **Frameworks:** Pandas, NumPy, TensorFlow, PyTorch, Scikit-learn, BeautifulSoup, Scrapy
-- **Databases and Datawarehouse Tools:** MySQL, PostgreSQL, MongoDB, Snowflake, Talend
+- **Frameworks:** Pandas, NumPy, TensorFlow, PyTorch, Scikit-learn, BeautifulSoup, Scrapy, Langchain
+- **Architectures:** RNN, LSTM, GRU, Seq2Seq, Transofrmers, Autoencoder, VAE, GAN, Diffusion models
+- **Databases and Datawarehouse Tools:** MySQL, PostgreSQL, MongoDB, Snowflake, Talend, ChromaDB, DataStax
 - **Cloud and Visualization Tools:** GCP, AWS, Tableau, Power BI
 - **MLOps and CI/CD:** Airflow, MLflow, TFX, DVC, Docker, Kubernetes, GitHub Actions
 - **Programming Languages:** Python, Java, C++, C#
@@ -33,23 +46,6 @@ Jun 2018 - Jul 2019
 - Streamlined data flow for analysis by designing and deploying pipelines that ingest data from AWS S3 buckets into Snowflake and automate transformations through Streams and Tasks, resulting in consistent and efficient data processing.
 - Deployed scripts to automate data extraction, transformation, and visualization from over hundred data sources, ensuring real-time updates and enhancing data accessibility for upstream tasks.
 
-### [Projects](../projects/)
+## [Projects](../projects/)
 
-## Education
 
-**Masters in Data Analytics**  
-Northeastern University, Boston, MA  
-Expected Graduation: December 2024  
-GPA: 3.9/4.0
-
-**Relevant Coursework:**
-- Machine learning
-- Machine Learning Operations (MLOps)
-- Natural Language Processing
-- Data Mining
-- Datawarehouse and Business Intelligence
-
-**Bachelor of Science in Information Science**  
-Dr Ambedkar Intitute of Technology, Bengaluru, Karnataka  
-Graduation: June 2018
-GPA: 3.46/4.0
