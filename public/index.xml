@@ -6,12 +6,12 @@
     <description>Recent content on praneith ranganath</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.praneith.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beyond the kick: Unlocking penaltity prediction through learning</title>
       <link>http://www.praneith.com/post1/</link>
-      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://www.praneith.com/post1/</guid>
       <description>In the first part, we explored the intricate relationship between various parameters and the direction of penalties taken by Harry Kane. Building on that foundation, we now seek to expand our analysis further by teaching a model to understand the complex relationships within our dataset.&#xA;Simplifying the Problem Link to heading To focus on meaningful insights, we decided to simplify the problem from a five-class classification problem to a three-class one.</description>
     </item>
