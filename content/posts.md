@@ -4,6 +4,14 @@ date: 2023-07-19
 draft: false
 ---
 
+### [Generative Models: A Deep Dive into VAEs, GANs, and Diffusion Models](https://medium.com/@praneithranganath10/generative-models-a-deep-dive-into-vaes-gans-and-diffusion-models-00de7eb74ac2)
+
+![First Post Image](/images/VAE.png)
+
+Generative models have transformed the landscape of artificial intelligence, enabling machines to create data, art, and simulations with remarkable realism. From Autoencoders to Variational Autoencoders (VAEs), Generative Adversarial Networks (GANs), and Diffusion Models, this article explores their evolution and applications. Dive into the mechanics and innovations driving this groundbreaking field.
+
+[Read more...](https://medium.com/@praneithranganath10/generative-models-a-deep-dive-into-vaes-gans-and-diffusion-models-00de7eb74ac2)
+
 ### [Beyond the Kick: Unlocking penaltity prediction through learning](../post1/)
 
 ![First Post Image](/images/HKP2.png)

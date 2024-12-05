@@ -6,21 +6,21 @@
     <description>Recent content on praneith ranganath</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.praneith.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond the kick: Unlocking penaltity prediction through learning</title>
+      <link>http://www.praneith.com/post1/</link>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://www.praneith.com/post1/</guid>
+      <description>In the first part, we explored the intricate relationship between various parameters and the direction of penalties taken by Harry Kane. Building on that foundation, we now seek to expand our analysis further by teaching a model to understand the complex relationships within our dataset.&#xA;Simplifying the Problem Link to heading To focus on meaningful insights, we decided to simplify the problem from a five-class classification problem to a three-class one.</description>
+    </item>
     <item>
       <title>About Me</title>
       <link>http://www.praneith.com/about/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://www.praneith.com/about/</guid>
       <description>Hi there! I&amp;rsquo;m Praneith, a Masters in Data Analytics student at Northeastern University 👋 Link to heading I&amp;rsquo;m a Masters student from Northeastern University&amp;rsquo;s Khoury College of Engineering, where I am working towards my Master&amp;rsquo;s degree in Data Analytics with major in Data Science.&#xA;My Passion for Technology 💻 Link to heading From a young age, I&amp;rsquo;ve been fascinated by the power of technology to solve complex problems and improve people&amp;rsquo;s lives.</description>
-    </item>
-    <item>
-      <title>Beyond the kick: Unlocking penaltity prediction through learning</title>
-      <link>http://www.praneith.com/post1/</link>
-      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://www.praneith.com/post1/</guid>
-      <description>In the first part, we explored the intricate relationship between various parameters and the direction of penalties taken by Harry Kane. Building on that foundation, we now seek to expand our analysis further by teaching a model to understand the complex relationships within our dataset.&#xA;Simplifying the Problem Link to heading To focus on meaningful insights, we decided to simplify the problem from a five-class classification problem to a three-class one.</description>
     </item>
     <item>
       <title>Expense Tracker Web App</title>
@@ -34,7 +34,7 @@
       <link>http://www.praneith.com/posts/</link>
       <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://www.praneith.com/posts/</guid>
-      <description>Beyond the Kick: Unlocking penaltity prediction through learning Link to heading In the first part, we explored the intricate relationship between various parameters and the direction of penalties taken by Harry Kane. Building on that foundation, we now seek to expand our analysis further by teaching a model to understand the complex relationships within our dataset.&#xA;Read more&amp;hellip;&#xA;Beyond the Kick! A data driven decomposition of penalties Link to heading In this article, I aim to build upon traditional data by incorporating additional parameters, unlocking more complex relationships.</description>
+      <description>Generative Models: A Deep Dive into VAEs, GANs, and Diffusion Models Link to heading Generative models have transformed the landscape of artificial intelligence, enabling machines to create data, art, and simulations with remarkable realism. From Autoencoders to Variational Autoencoders (VAEs), Generative Adversarial Networks (GANs), and Diffusion Models, this article explores their evolution and applications. Dive into the mechanics and innovations driving this groundbreaking field.&#xA;Read more&amp;hellip;&#xA;Beyond the Kick: Unlocking penaltity prediction through learning Link to heading In the first part, we explored the intricate relationship between various parameters and the direction of penalties taken by Harry Kane.</description>
     </item>
     <item>
       <title>Projects</title>

@@ -1,6 +1,6 @@
 ---
 title: "Beyond the kick: Unlocking penaltity prediction through learning"
-date: 2023-07-19
+date: 2024-09-19
 draft: false
 ---
 
