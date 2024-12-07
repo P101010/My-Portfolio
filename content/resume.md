@@ -20,6 +20,8 @@ GPA: 3.46/4.0
 - **Automation Tools:** Automation Anywhere, Power Automate, UI Path, RulAI, VB Script
 - **Project Management Tools:** Jeera, Workzone, Monday.com
 
+## [Projects](../projects/)
+
 ## Work Experience
 **Data Analyst**  
 **FHI 360**, Washington, DC  
@@ -34,7 +36,8 @@ Jun 2023 – Nov 2023
 Jul 2019 - Sep 2022  
 - Cut recruitment time by 65% by developing a python framework to scrape candidate info from LinkedIn and further reduced 
 - As the solution architect improved user experience by designing dashboards to monitor bot performance and augmented features like auto-ticket assignment, auto-rescheduling into RadiumAi, a product to maintain RPA process across platforms.
-- Achieved a 12x increase in speed and a 45% boost in accuracy in retrieving documents by developing a hybrid approach that integrates TF-IDF sparse and dense attention-based embeddings, delivering optimized relevance and performance. 
+- Reduced helpline wait time by 70% by building a chatbot that used few shot examples & document retrieval to solve queries.
+- Enhanced chatbots ability to retrieve relevant info by using a hybrid approach combining TF-IDF sparse embeddings and attention-based dense embeddings, achieving a 12x speed improvement and a 65% increase in accuracy.
 - Increased memory utilization and decreased training runtime through data and model parallelization techniques, enhancing the efficiency of machine learning workflows.
 - Reduced payment term from three days to one by implementing OCR to automate invoice processing, therby accelerating the payment cycle and improving supply chain efficiency. 
 - Eliminated dependency on users and ensured consistency by automating data collection, manipulation and report generation.
@@ -46,6 +49,5 @@ Jun 2018 - Jul 2019
 - Streamlined data flow for analysis by designing and deploying pipelines that ingest data from AWS S3 buckets into Snowflake and automate transformations through Streams and Tasks, resulting in consistent and efficient data processing.
 - Deployed scripts to automate data extraction, transformation, and visualization from over hundred data sources, ensuring real-time updates and enhancing data accessibility for upstream tasks.
 
-## [Projects](../projects/)
 
 
