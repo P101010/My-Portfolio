@@ -34,7 +34,8 @@ Jun 2023 – Nov 2023
 **Senior Automation Engineer**  
 **Acronotics**, Bengaluru, India  
 Jul 2019 - Sep 2022  
-- Cut recruitment time by 65% by developing a python framework to scrape candidate info from LinkedIn and further reduced time for shortlisting by an additional 25%, using a Gaussian Process Regression model trained on partners historical data. 
+- Cut recruitment time by 65% by developing a python framework to scrape candidate info from LinkedIn.
+- Reduced time for shortlisting by an additional 25%, using a Gaussian Process Regression model trained on partners historical data. 
 - As the solution architect improved user experience by designing dashboards to monitor bot performance and augmented features like auto-ticket assignment, auto-rescheduling into RadiumAi, a product to maintain RPA process across platforms.
 - Reduced helpline wait time by 70% by building a chatbot that used few shot examples & document retrieval to solve queries.
 - Enhanced chatbots ability to retrieve relevant info by using a hybrid approach combining TF-IDF sparse embeddings and attention-based dense embeddings, achieving a 12x speed improvement and a 65% increase in accuracy.
