@@ -14,20 +14,20 @@
 
 <meta name="author" content="Praneith Ranganath">
 <meta name="description" content="Check out my GitHub for more details!
-Brain Tumor Classification – Deployment ready project Link to heading Developed a brain-tumor classifier using CNN and managed versioning and artifacts of model using MLFlow. Automated training and retraining of model using Airflow DAG’s based on feedback received. Deployed a scalable application developed using Streamlit leveraging Restful API endpoints on Kubernetes, based on the latest Docker image in the artifact registry, pushed by GitHub Actions on change thereby achieving CI/CD.">
+Brain Tumor Classification – Deployment ready project Link to heading Deployed a scalable brain-tumor classifier on Kubernetes developed on Streamlit leveraging Restful API endpoints. The deployment was based on the latest Docker image in the artifact registry, pushed by GitHub Actions achieving CI/CD. Developed the model using CNN on TensorFlow Keras and managed the versioning and artifacts using MLFlow. Automated training and retraining pipelines of model using Airflow DAGs based on triggers like feedback, model-decay.">
 <meta name="keywords" content="blog,student,northeastern,personal">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Projects">
   <meta name="twitter:description" content="Check out my GitHub for more details!
-Brain Tumor Classification – Deployment ready project Link to heading Developed a brain-tumor classifier using CNN and managed versioning and artifacts of model using MLFlow. Automated training and retraining of model using Airflow DAG’s based on feedback received. Deployed a scalable application developed using Streamlit leveraging Restful API endpoints on Kubernetes, based on the latest Docker image in the artifact registry, pushed by GitHub Actions on change thereby achieving CI/CD.">
+Brain Tumor Classification – Deployment ready project Link to heading Deployed a scalable brain-tumor classifier on Kubernetes developed on Streamlit leveraging Restful API endpoints. The deployment was based on the latest Docker image in the artifact registry, pushed by GitHub Actions achieving CI/CD. Developed the model using CNN on TensorFlow Keras and managed the versioning and artifacts using MLFlow. Automated training and retraining pipelines of model using Airflow DAGs based on triggers like feedback, model-decay.">
 
 <meta property="og:url" content="http://www.praneith.com/projects/">
   <meta property="og:site_name" content="praneith ranganath">
   <meta property="og:title" content="Projects">
   <meta property="og:description" content="Check out my GitHub for more details!
-Brain Tumor Classification – Deployment ready project Link to heading Developed a brain-tumor classifier using CNN and managed versioning and artifacts of model using MLFlow. Automated training and retraining of model using Airflow DAG’s based on feedback received. Deployed a scalable application developed using Streamlit leveraging Restful API endpoints on Kubernetes, based on the latest Docker image in the artifact registry, pushed by GitHub Actions on change thereby achieving CI/CD.">
+Brain Tumor Classification – Deployment ready project Link to heading Deployed a scalable brain-tumor classifier on Kubernetes developed on Streamlit leveraging Restful API endpoints. The deployment was based on the latest Docker image in the artifact registry, pushed by GitHub Actions achieving CI/CD. Developed the model using CNN on TensorFlow Keras and managed the versioning and artifacts using MLFlow. Automated training and retraining pipelines of model using Airflow DAGs based on triggers like feedback, model-decay.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:published_time" content="2023-07-19T00:00:00+00:00">
@@ -148,10 +148,23 @@ Brain Tumor Classification – Deployment ready project Link to heading Develope
 </h3>
 <p><img alt="Brain Tumor Classification Image" src="/images/BTC.png"></p>
 <ul>
-<li>Developed a brain-tumor classifier using CNN and managed versioning and artifacts of model using MLFlow.</li>
-<li>Automated training and retraining of model using Airflow DAG’s based on feedback received.</li>
-<li>Deployed a scalable application developed using Streamlit leveraging Restful API endpoints on Kubernetes, based on the latest Docker image in the artifact registry, pushed by GitHub Actions on change thereby achieving CI/CD.</li>
-<li>Monitored model for confidence and prediction distribution, data for drift and skew to increase lifecycle of model.</li>
+<li>Deployed a scalable brain-tumor classifier on Kubernetes developed on Streamlit leveraging Restful API endpoints.</li>
+<li>The deployment was based on the latest Docker image in the artifact registry, pushed by GitHub Actions achieving CI/CD.</li>
+<li>Developed the model using CNN on TensorFlow Keras and managed the versioning and artifacts using MLFlow.</li>
+<li>Automated training and retraining pipelines of model using Airflow DAGs based on triggers like feedback, model-decay.</li>
+<li>Monitored on Tableau the model for confidence, prediction distribution, data for drift, skew to increase lifecycle of model.</li>
+</ul>
+<h3 id="generative-models---vans-gans">
+  Generative Models - VANs, GANs
+  <a class="heading-link" href="#generative-models---vans-gans">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><img alt="VAN Image" src="/images/VAE.png"></p>
+<ul>
+<li>Designed and implemented Variational Autoencoders with a 32-dimensional latent space to reconstruct MNIST digits, enabling detailed exploration of latent space interpolations and smooth transitions between digit classes.</li>
+<li>Developed Generative Adversarial Networks with CNN based architectures for the generator and discriminator, optimizing adversarial training using binary cross-entropy loss to generate synthetic CIFAR-10 images.</li>
 </ul>
 <h3 id="rag-database-assistant">
   RAG Database Assistant
@@ -178,18 +191,15 @@ Brain Tumor Classification – Deployment ready project Link to heading Develope
 <li>Retrieved relevant document pages based on user queries by converting images of pdf documents into embeddings using a vison transformer, storing them in a vector database and doing a similarity search on embeddings of user queries.</li>
 <li>Optimized storage in database by using binary quantization and enhanced search accuracy by reranking and oversampling.</li>
 </ul>
-<h3 id="body-composition-scanner">
-  Body Composition Scanner
-  <a class="heading-link" href="#body-composition-scanner">
+<h3 id="mbta--machine-learning-model-for-predicting-the-load-on-bus">
+  MBTA – Machine learning model for predicting the load on bus
+  <a class="heading-link" href="#mbta--machine-learning-model-for-predicting-the-load-on-bus">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p><img alt="Body Composition Scanner Image" src="/images/project.png"></p>
 <ul>
-<li>Used a pretrained Resnet model to extract silhouettes of front and left or right facing images of subjects.</li>
-<li>Extracted features from silhouettes such as area, solidity of contour.</li>
-<li>Established a linear relation between wrist size and neck circumference through a paper by Prof. John Verzani called &ldquo;Human Proportions,&rdquo; which was later used for other component calculations like fat percentage, lean mass, and more.</li>
+<li>Improved user satisfaction by reducing load on bus by 30% with scheduling strategies derived based on a random forest model developed with MBTA Data Science team which achieved an accuracy of 84.8%.</li>
 </ul>
 <h3 id="penalty-analysis-and-goalkeeper-strategies">
   Penalty Analysis and Goalkeeper Strategies
@@ -202,6 +212,19 @@ Brain Tumor Classification – Deployment ready project Link to heading Develope
 <ul>
 <li>Identified and established key correlations between the direction of shot during a penalty and game specific factors like if player is facing home or away fans in front of the goal, team is leading or behind in goals, time in game and so on.#<a href="https://medium.com/@praneithranganath10/beyond-the-kick-a-data-driven-decomposition-of-penalties-b42bfc811b03"  class="external-link" target="_blank" rel="noopener">Beyond the Kick</a></li>
 <li>Derived strategies to save penalties by predicting the direction of shot using a KNN model developed on the insights above.</li>
+</ul>
+<h3 id="body-composition-scanner">
+  Body Composition Scanner
+  <a class="heading-link" href="#body-composition-scanner">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><img alt="Body Composition Scanner Image" src="/images/project.png"></p>
+<ul>
+<li>Used a pretrained Resnet model to extract silhouettes of front and left or right facing images of subjects.</li>
+<li>Extracted features from silhouettes such as area, solidity of contour.</li>
+<li>Established a linear relation between wrist size and neck circumference through a paper by Prof. John Verzani called &ldquo;Human Proportions,&rdquo; which was later used for other component calculations like fat percentage, lean mass, and more.</li>
 </ul>
 <h3 id="classical-machine-learning-algorithms">
   Classical Machine Learning Algorithms
@@ -237,16 +260,6 @@ Brain Tumor Classification – Deployment ready project Link to heading Develope
 <ul>
 <li>Designed a multidimensional model for tracking metrics with a focus on identifying diagnostic trends and regional hazards.</li>
 <li>Utilized AWS Glue jobs for ETL from PostgreSQL to Redshift, leveraging S3 buckets for intermediate storage and Lambda functions to automate job triggers for efficient data processing.</li>
-</ul>
-<h3 id="mbta--machine-learning-model-for-predicting-the-load-on-bus">
-  MBTA – Machine learning model for predicting the load on bus
-  <a class="heading-link" href="#mbta--machine-learning-model-for-predicting-the-load-on-bus">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h3>
-<ul>
-<li>Improved user satisfaction by reducing load on bus by 30% with scheduling strategies derived based on a random forest model developed with MBTA Data Science team which achieved an accuracy of 84.8%.</li>
 </ul>
 <h3 id="european-footballsoccer-database-management-system">
   European Football/Soccer Database Management System

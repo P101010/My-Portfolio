@@ -9,10 +9,18 @@ draft: false
 ### Brain Tumor Classification – Deployment ready project
 
 ![Brain Tumor Classification Image](/images/BTC.png)  
-- Developed a brain-tumor classifier using CNN and managed versioning and artifacts of model using MLFlow.
-- Automated training and retraining of model using Airflow DAG’s based on feedback received.
-- Deployed a scalable application developed using Streamlit leveraging Restful API endpoints on Kubernetes, based on the latest Docker image in the artifact registry, pushed by GitHub Actions on change thereby achieving CI/CD.
-- Monitored model for confidence and prediction distribution, data for drift and skew to increase lifecycle of model.
+- Deployed a scalable brain-tumor classifier on Kubernetes developed on Streamlit leveraging Restful API endpoints. 
+- The deployment was based on the latest Docker image in the artifact registry, pushed by GitHub Actions achieving CI/CD.
+- Developed the model using CNN on TensorFlow Keras and managed the versioning and artifacts using MLFlow.
+- Automated training and retraining pipelines of model using Airflow DAGs based on triggers like feedback, model-decay.
+- Monitored on Tableau the model for confidence, prediction distribution, data for drift, skew to increase lifecycle of model.
+
+
+### Generative Models - VANs, GANs
+
+![VAN Image](/images/VAE.png)  
+- Designed and implemented Variational Autoencoders with a 32-dimensional latent space to reconstruct MNIST digits, enabling detailed exploration of latent space interpolations and smooth transitions between digit classes.
+- Developed Generative Adversarial Networks with CNN based architectures for the generator and discriminator, optimizing adversarial training using binary cross-entropy loss to generate synthetic CIFAR-10 images.
 
 ### RAG Database Assistant
 
@@ -27,13 +35,9 @@ draft: false
 - Retrieved relevant document pages based on user queries by converting images of pdf documents into embeddings using a vison transformer, storing them in a vector database and doing a similarity search on embeddings of user queries.
 - Optimized storage in database by using binary quantization and enhanced search accuracy by reranking and oversampling.
 
-### Body Composition Scanner
+### MBTA – Machine learning model for predicting the load on bus
 
-![Body Composition Scanner Image](/images/project.png)  
-- Used a pretrained Resnet model to extract silhouettes of front and left or right facing images of subjects.
-- Extracted features from silhouettes such as area, solidity of contour.
-- Established a linear relation between wrist size and neck circumference through a paper by Prof. John Verzani called "Human Proportions," which was later used for other component calculations like fat percentage, lean mass, and more.
-
+- Improved user satisfaction by reducing load on bus by 30% with scheduling strategies derived based on a random forest model developed with MBTA Data Science team which achieved an accuracy of 84.8%.
 
 ### Penalty Analysis and Goalkeeper Strategies  
 
@@ -41,6 +45,13 @@ draft: false
  
 - Identified and established key correlations between the direction of shot during a penalty and game specific factors like if player is facing home or away fans in front of the goal, team is leading or behind in goals, time in game and so on.#[Beyond the Kick](https://medium.com/@praneithranganath10/beyond-the-kick-a-data-driven-decomposition-of-penalties-b42bfc811b03)
 - Derived strategies to save penalties by predicting the direction of shot using a KNN model developed on the insights above.
+
+### Body Composition Scanner
+
+![Body Composition Scanner Image](/images/project.png)  
+- Used a pretrained Resnet model to extract silhouettes of front and left or right facing images of subjects.
+- Extracted features from silhouettes such as area, solidity of contour.
+- Established a linear relation between wrist size and neck circumference through a paper by Prof. John Verzani called "Human Proportions," which was later used for other component calculations like fat percentage, lean mass, and more.
 
 ### Classical Machine Learning Algorithms
 
@@ -59,10 +70,6 @@ draft: false
 - Designed a multidimensional model for tracking metrics with a focus on identifying diagnostic trends and regional hazards.
 - Utilized AWS Glue jobs for ETL from PostgreSQL to Redshift, leveraging S3 buckets for intermediate storage and Lambda functions to automate job triggers for efficient data processing.
 
-
-### MBTA – Machine learning model for predicting the load on bus
-
-- Improved user satisfaction by reducing load on bus by 30% with scheduling strategies derived based on a random forest model developed with MBTA Data Science team which achieved an accuracy of 84.8%.
 
 ### European Football/Soccer Database Management System
 
