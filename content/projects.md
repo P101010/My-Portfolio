@@ -15,12 +15,21 @@ draft: false
 - Automated training and retraining pipelines of model using Airflow DAGs based on triggers like feedback, model-decay.
 - Monitored on Tableau the model for confidence, prediction distribution, data for drift, skew to increase lifecycle of model.
 
+### MenuData chatbot challenege 
+
+![MenuData chatbot challenege](/images/KG-Flow.jpg)  
+- Implemented a chatbot with self-growing knowledge graph, updated with relevant external information based on interaction.
+- Improved retrieval accuracy & latency by embedding external information in a topic-section-subsection format in vectorDB.
+- For better experience used conversational memory, guardrails to filter out toxic language & ensure context aware interaction.
+- Monitored execution workflows using LangSmith, to improve query efficiency and identifying bottlenecks in execution.
+
 
 ### Generative Models - VANs, GANs
 
 ![VAN Image](/images/VAE.png)  
 - Designed and implemented Variational Autoencoders with a 32-dimensional latent space to reconstruct MNIST digits, enabling detailed exploration of latent space interpolations and smooth transitions between digit classes.
 - Developed Generative Adversarial Networks with CNN based architectures for the generator and discriminator, optimizing adversarial training using binary cross-entropy loss to generate synthetic CIFAR-10 images.
+- Implemented DeepSpeed's ZeRO optimization and mixed precision training with DDP to accelerate the training of the GAN framework, enabling the generation of high-quality images while reducing memory overhead and computational costs.
 
 ### RAG Database Assistant
 

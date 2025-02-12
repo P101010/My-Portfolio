@@ -36,10 +36,10 @@ Jun 2023 – Nov 2023
 Jul 2019 - Sep 2022  
 - Cut recruitment time by 65% by developing a python framework to scrape candidate info from LinkedIn.
 - Reduced time for shortlisting by an additional 25%, using a Gaussian Process Regression model trained on partners historical data. 
-- As the solution architect improved user experience by designing dashboards to monitor bot performance and augmented features like auto-ticket assignment, auto-rescheduling into RadiumAi, a product to maintain RPA process across platforms.
+- Decreased stockouts by 22% by forecasting department-level sales using SARIMAX models, built data pipelines on Cloud Dataflow for continuous retraining and deployed it containerized with API endpoints orchestrated on GKE.
 - Reduced helpline wait time by 70% by building a chatbot that used few shot examples & document retrieval to solve queries.
 - Enhanced chatbots ability to retrieve relevant info by using a hybrid approach combining TF-IDF sparse embeddings and attention-based dense embeddings, achieving a 12x speed improvement and a 65% increase in accuracy.
-- Increased memory utilization and decreased training runtime through data and model parallelization techniques, enhancing the efficiency of machine learning workflows.
+- As the solution architect improved user experience by designing dashboards to monitor bot performance and augmented features like auto-ticket assignment, auto-rescheduling into RadiumAi, a product to maintain RPA process across platforms.
 - Reduced payment term from three days to one by implementing OCR to automate invoice processing, therby accelerating the payment cycle and improving supply chain efficiency. 
 - Eliminated dependency on users and ensured consistency by automating data collection, manipulation and report generation.
 
