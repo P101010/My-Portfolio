@@ -19,7 +19,7 @@ author = "Praneith Ranganath"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "My portfolio"
 keywords = "blog,student,northeastern,personal"
-info = ["Masters in Data Analytics", "Northeastern University", "Microsoft Azure AI Engineer Certified"]  
+info = ["Masters at Northeastern University", "Machine Learning Enthusiast", "Microsoft Azure AI Engineer Certified"]  
 avatarURL = "images/IMG_5888.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
